@@ -1,6 +1,6 @@
 'use strict';
 
-function grouping_count(collection) {
+/*function grouping_count(collection) {
 	let filteredCollection={};
 	let itemCount = 0;
 	for (let aCount=0; aCount<collection.length; aCount++)
@@ -15,6 +15,19 @@ function grouping_count(collection) {
 		}
 	}
 	return filteredCollection;
+}*/
+
+function grouping_count(collection) {
+	
+	var filtered ={};
+	var result = collection.filter(a => {
+		if(filtered.hasOwnProperty(a))
+			filtered[a]++;
+		else
+			filtered[a] = 1;
+		return null;
+		}); 
+	return filtered;
 }
 
 module.exports = grouping_count;
