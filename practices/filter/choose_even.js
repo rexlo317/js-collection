@@ -20,7 +20,8 @@ function myFilter(functionPara, collection){
 
 
 /*function choose_even(collection) {
-	return myFilter(isEven,collection);
+	return myFilter(isEven,collection)
+	.;
 }*/
 
 function choose_even(collection) {
