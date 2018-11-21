@@ -19,12 +19,11 @@ function myFilter(functionPara, collection){
 }
 
 
-/*function choose_even(collection) {
-	return myFilter(isEven,collection)
-	.;
-}*/
-
 function choose_even(collection) {
+	return collection.filter(a => isEven(a));
+}
+
+/*function choose_even(collection) {
 	let filteredCollection=[];
 	for (let aCount=0; aCount<collection.length; aCount++)
 	{
@@ -33,6 +32,6 @@ function choose_even(collection) {
 		}
 	}
 	return filteredCollection;
-}
+}*/
 
 module.exports = choose_even;
