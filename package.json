@@ -5,5 +5,22 @@
   },
   "dependencies": {
     "jasmine-node": "1.14.5"
-  }
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "name": "js-collection",
+  "description": "## Get Started",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexlo317/js-collection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rexlo317/js-collection/issues"
+  },
+  "homepage": "https://github.com/rexlo317/js-collection#readme"
 }
